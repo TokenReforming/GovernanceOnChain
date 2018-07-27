@@ -82,7 +82,7 @@ git commit -m '说明'
 git push origin
 ```
 
-请注意，如果你曾经Fork过全项目并发现fork落后于主项目，需要取回项目最新状态后再进行分支切换。  
+请注意，如果你曾经Fork过全项目并发现fork落后于主项目，需要取回项目最新状态进行合并后再进行分支切换。  
 
 ```bash
 git remote add tr https://github.com/TokenReforming/GovernanceOnChain.git
@@ -105,7 +105,7 @@ git push origin
 
 #### 评审结果确定
 
-管理员将结果分支合并进入Master分支，关闭评审分支，为当前状态添加标签。
+管理员将结果分支合并进入Master分支，关闭评审分支，为当前状态添加标签，将对应材料归类存档。
 
 ```bash
 git tag -a BGP005 -m 'BGP005 pass'
